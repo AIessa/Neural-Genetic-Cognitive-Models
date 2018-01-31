@@ -1,0 +1,70 @@
+Log file for Perceptron performance on iris data 
+Training perceptron with: 
+bias=-1 learningrate=0.7 weights=[-1.509867e+00,-4.855707e-01,-8.848046e-01,-1.375592e+00,-7.184564e-01] epochs=90 (stop criterion) 
+Classification results:
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     0      1      0
+     0      0      0
+     0      1      0
+     0      1      0
+     0      0      0
+     0      0      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      0      0
+     0      1      1
+     0      1      0
+     0      1      1
+     0      0      0
+     0      1      1
+     0      1      0
+     0      1      1
+     0      0      1
+     0      0      1
+Actual classes: 
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     1      0      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      1      0
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+     0      0      1
+The ANN correctly classified 19 out of 30. Success rate of : 63.3333 percent. (<-note: error=36.6667 percent)
+
+confusion matrix for classification of iris setosa: FP: 0, FN: 0, TP: 10, TN: 20 
+confusion matrix for classification of iris versicolor: FP: 6, FN: 3, TP: 7, TN: 14 
+confusion matrix for classification of iris virginica: FP: 0, FN: 4, TP: 6, TN: 20 
